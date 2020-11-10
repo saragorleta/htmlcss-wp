@@ -5,8 +5,8 @@
 }
 /* regole principali */
 .body{
-  background-image:url('../img/natural-pattern.jpg');
   font-family: 'Noto Sans JP', sans-serif;
+  background-image: url('../img/natural-pattern.png');
 }
 
 .container{
