@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 /* regole principali */
-.body{
+body{
   font-family: 'Noto Sans JP', sans-serif;
-  background-image: url('../img/natural-pattern.png');
+  background-image:url('../img/natural-pattern.png');
 }
 
 .container{
@@ -18,20 +18,20 @@
   display:table;
   clear:both;
 }
-/* inizio header */
+/* inizio intestazione */
 header{
   width: 100%;
   height: 300px;
-  background-color: lightpink;
-  position:relative;
+
 
 }
 .header-top{
   width: 100%;
   height:250px;
+  border:10px solid white;
   background-image:url('../img/natural-header.jpg');
-  text-align:center;
   background-size: cover;
+  text-align:center;
   position:relative;
 }
 .header-logo-testo{
@@ -50,42 +50,58 @@ h2{
   padding-top: 5px;
 
 }
-/* fine header */
 
-/* inizio contenuto-  */
 .menu{
   width: 100%;
   height: 50px;
-  background-color: rgb(198, 110, 173);
+  background-color:rgb(145, 135, 134);
   text-align: center;
-
 }
 
 li{
   display: inline-block;
   line-height: 50px;
-
 }
 
 nav .menu li a {
   color:white;
   text-decoration: none;
-  padding-right: 20px;
-
-
+  padding-right: 10px;
+  padding-left: 10px
 }
-
+li:hover{
+  background-color:rgba(8, 8, 7, 0.6);
+}
 /* fine intestazione */
 
 /* colonna sinistra */
 .col-left{
   width: 20%;
   height:300px;
-  background-color: rgb(111, 120, 119);
+  background-color:white;
   margin-top: 5px;
   margin-bottom: 5px;
   float:left;
   border-radius: 5px;
+}
+
+.icona{
+
+  width: 30%;
+  height:30px;
+  float: left;
+}
+
+.themes-title{
+  background-color:yellow;
+  width: 70%;
+  height: 30px;
+  float: left;
+}
+.col-left li a{
+padding-bottom: 10px;
+color:green;
+
 }
 /* colonna centrale */
 section{
@@ -100,6 +116,9 @@ section{
   float:left;
 
 }
+
+
+
 /* colonna destra */
 .col-right{
   width:20%;
